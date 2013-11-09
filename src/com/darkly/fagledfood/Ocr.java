@@ -1,14 +1,13 @@
 package com.darkly.fagledfood;
 
 
+import java.io.IOException;
+
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
 import android.os.Environment;
-
-import java.io.File;
-import java.io.IOException;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
 
