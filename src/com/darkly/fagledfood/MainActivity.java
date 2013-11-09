@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 		JPEG_FILE_PREFIX = "JPG";
 
 		mCameraButton = (Button)findViewById(R.id.camera_button);
-		mImageView = (ImageView)findViewById(R.id.camera_shot);
+		mImageView = (ImageView)findViewById(R.id.captured_image);
 		mRecognizedText = (TextView)findViewById(R.id.recognized_text);
 
 		mCameraButton.setOnClickListener(new View.OnClickListener() {

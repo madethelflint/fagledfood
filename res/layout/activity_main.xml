@@ -18,13 +18,15 @@
     <TextView android:id="@+id/recognized_text"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+               android:layout_below="@id/camera_button"
+              android:paddingTop="20dp"
         />
 
     <ImageView
-        android:id="@+id/camera_shot"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:layout_below="@id/camera_button"
+        android:id="@+id/captured_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recognized_text"
         android:paddingTop="20dp"
         />
 
