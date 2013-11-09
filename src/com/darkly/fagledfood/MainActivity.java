@@ -80,13 +80,8 @@ public class MainActivity extends Activity {
 
 		@Override
 		protected void onActivityResult(int requestCode, int resultCode, Intent data){
-			//if(data == null)
-			//	return;
-
 			try{
-				//mCurrentPhotoPath = (String)data.getExtras().get(MainActivity.EXTRAS_PATH_VALUE);
-				//handleSmallCameraPhoto(data);
-				//galleryAddPic();
+				galleryAddPic();
 
 				Ocr ocr = new Ocr();
 				String text = ocr.exifHandler(mCurrentPhotoPath);
@@ -117,12 +112,6 @@ public class MainActivity extends Activity {
 			List<ResolveInfo> list =
 					packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
 			return list.size() > 0;
-		}
-
-		private void handleSmallCameraPhoto(Intent intent) {
-			Bundle extras = intent.getExtras();
-			mBitmap = (Bitmap) extras.get("data");
-			mImageView.setImageBitmap(mBitmap);
 		}
 
 		private File createImageFile() throws IOException {
