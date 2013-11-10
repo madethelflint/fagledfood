@@ -6,6 +6,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="camera_button">Camera</string>
     <string name="title_activity_scanner">Scanner</string>
-
     <string name="scan_button_text">Start Scanning Ingredients</string>
+    <string name="status_title">Working...</string>
+    <string name="title_activity_ingredients">IngredientsActivity</string>
+    <string name="intro_image">fagled_food_start_1.png</string>
+    <string name="title_activity_definitions">DefinitionsActivity</string>
+
 </resources>

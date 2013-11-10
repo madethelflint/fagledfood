@@ -11,6 +11,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-sdk
         android:minSdkVersion="10"
@@ -33,6 +34,14 @@
         <activity
             android:name="com.darkly.fagledfood.Scanner"
             android:label="@string/title_activity_scanner" >
+        </activity>
+        <activity
+            android:name="com.darkly.fagledfood.IngredientsActivity"
+            android:label="@string/title_activity_ingredients" >
+        </activity>
+        <activity
+            android:name="com.darkly.fagledfood.DefinitionsActivity"
+            android:label="@string/title_activity_definitions" >
         </activity>
     </application>
 

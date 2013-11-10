@@ -9,13 +9,14 @@
                 tools:context=".MainActivity$PlaceholderFragment">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/intro_image"
+        android:src="@drawable/fagled_food_start_1"
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/scan_button_text"
         android:id="@+id/scan_button"
